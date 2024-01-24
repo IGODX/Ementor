@@ -1,0 +1,298 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.background{
+    background: #10B582; 
+    height: 90vh;
+    margin-bottom: 120px;
+}
+.container{
+    margin: 0 135px;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    color: white;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0em;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav li{
+    padding-top: 40px;
+    margin-right: 40px;
+}
+
+.active{
+    padding-bottom: 2px;
+    border-bottom: 2px dashed #FA9F42;
+}
+.social-media{
+    position: absolute;
+    margin-top: 120px;
+}
+.woman-1{
+    position: absolute;
+    margin-top: 380px;
+}
+.woman-1 img{
+    border-radius:0px 80px 0px 0px;
+}
+.woman-2{
+    position:absolute;
+    margin-left: auto;
+    right: 0;
+    top: 0;
+    margin-top: 150px;
+    margin-right: 135px;
+}
+.woman-2 img{
+border-radius: 80px 0px 0px 0px;
+
+}
+.social-media img{
+    display: block;
+
+    margin-bottom: 30px;
+}
+
+.platform-holder{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 685px;
+}
+
+.platform-holder h1{
+font-size: 58px;
+font-weight: 500;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+width: 542px;
+margin-bottom: 20px;
+}
+.platform-holder p{
+font-size: 16px;
+font-weight: 400;
+width: 414px;
+text-align: center;
+line-height: 24px;
+letter-spacing: 0em;
+margin-bottom: 50px;
+    color: white;
+}
+.orange-btn{
+    cursor: pointer;
+    background: #FA9F42;
+    padding: 20px 47px;
+border: none;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0em;
+color: white;
+border-radius: 0px 20px;
+
+}
+
+.logo-holder{
+    margin-bottom: 60px;
+}
+
+.about ul{
+    list-style-type: none;
+}
+
+.about ul{
+display: flex;
+justify-content: center;
+}
+.about h3{
+    color: #10B582;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+
+.about p{
+width: 270px;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.about{
+    margin-bottom: 120px;
+}
+
+.study{
+    margin-bottom: 120px;
+}
+.study div:nth-of-type(1){
+    width: 504px;
+    margin-right: 100px;
+}
+
+.study p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.study p:nth-of-type(1){
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.study p:nth-of-type(2){
+
+    margin-bottom: 50px;
+}
+
+.study h2{
+font-size: 58px;
+font-weight: 500;
+line-height: 58px;
+letter-spacing: 0em;
+
+}
+
+.teachers-button{
+padding: 20px 38px;
+color: white;
+border: none;
+border-radius: 0px 20px 0px 20px;
+background: #10B582;
+
+}
+
+.study{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lessons-btn{
+padding: 20px 74px !important;
+}
+
+.chose-wrapper  {
+ background: #10B582;
+overflow: hidden;
+margin-bottom: 120px;
+}
+
+.chose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.chose div:nth-of-type(1){
+    padding: 150px 130px 120px 135px;
+}
+
+.chose div:nth-of-type(2){
+   width: 500px;
+}
+.chose h2{
+font-size: 58px;
+font-weight: 500;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+
+.chose p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #FDFDFD;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.popular-courses-wrapper h2{
+text-align: center;
+}
+
+.courses-cards{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.all-courses-btn{
+    padding: 20px 74px;
+}
+
+.btn-holder{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.join-background{
+    height: 578px;
+    width: 100%;
+    background-image: url("assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.join-now{
+    margin-left: 880px;
+    width: 508px;
+}
+
+.join-now h3{
+font-size: 58px;
+font-weight: 500;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.join-now p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}

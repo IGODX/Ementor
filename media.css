@@ -1,0 +1,7 @@
+@media (max-width: 1323px) {
+    .woman-1,
+    .woman-2,
+    .social-media{
+        display: none;
+    }
+}

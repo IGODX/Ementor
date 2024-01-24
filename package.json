@@ -1,0 +1,9 @@
+{
+  "homepage": "https://igodx.github.io/ementor",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
